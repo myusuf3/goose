@@ -4,7 +4,6 @@ goose is a database migration tool.
 
 You can manage your database's evolution by creating incremental SQL or Go scripts.
 
-[![Build Status](https://drone.io/bitbucket.org/liamstask/goose/status.png)](https://drone.io/bitbucket.org/liamstask/goose/latest)
 
 # Install
 
@@ -227,7 +226,7 @@ These instructions assume that you're using [Keith Rarick's Heroku Go buildpack]
 // note: need at least one blank line after build constraint
 package main
 
-import _ "bitbucket.org/liamstask/goose/cmd/goose"
+import _ "github.com/myusuf3/goose/cmd/goose"
 ```
 
 [Set up your Heroku database(s) as usual.](https://devcenter.heroku.com/articles/heroku-postgresql)

@@ -1,8 +1,9 @@
 package main
 
 import (
-	"bitbucket.org/liamstask/goose/lib/goose"
 	"log"
+
+	"github.com/myusuf3/goose/lib/goose"
 )
 
 var redoCmd = &Command{
